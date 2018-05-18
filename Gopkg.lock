@@ -3,18 +3,37 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/golang/freetype"
+  packages = [
+    "raster",
+    "truetype"
+  ]
+  revision = "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/image"
   packages = [
+    "draw",
     "font",
-    "font/basicfont",
     "font/plan9font",
+    "math/f64",
     "math/fixed"
   ]
   revision = "f315e440302883054d0c2bd85486878cb4f8572c"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "html",
+    "html/atom"
+  ]
+  revision = "2491c5de3490fced2f6cff376127c667efeed857"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "71430ea55aca2ae7321943717b87ec6c305e6582cc3b95e5e6b290272fdccb99"
+  inputs-digest = "9fb4f6fd609de4cc080ab21b39e7aba2f30a008c600e8fc5aca2f5b4fb9a0a96"
   solver-name = "gps-cdcl"
   solver-version = 1
